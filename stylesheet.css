@@ -22,19 +22,20 @@ body {
 	right: 0;
 }
 
-.all {
-	display: flex;
-	flex-flow: column nowrap;
+.index_header {
+	margin-left: auto;
+	margin-right: auto;
 }
 
-h1 {
+h1,
+h2,
+h4 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 }
 
-h2 {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
+h4 {
+	text-align: center;
 }
 
 li,
@@ -112,7 +113,7 @@ main {
 }
 
 main img {
-	height: 400px;
+	height: 50vh;
 }
 
 .index_text h1 {
@@ -122,4 +123,45 @@ main img {
 .index_text h2 {
 	font-size: 30px;
 	font-weight: 500;
+}
+
+.components_images {
+	display: inline-grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+}
+
+.components_images li {
+	list-style-type: none;
+	align-content: center;
+}
+
+.components_cpu {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	height: 30vh;
+}
+
+.components_gpu {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	height: 30vh;
+}
+.components_ram {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	height: 24vh;
+}
+.components_ssd {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	height: 21vh;
 }
