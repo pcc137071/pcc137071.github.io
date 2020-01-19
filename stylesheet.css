@@ -22,9 +22,9 @@ body {
 	right: 0;
 }
 
-.index_header {
-	margin-left: auto;
-	margin-right: auto;
+.filler {
+	background-color: #59a5d8;
+	color: #59a5d8;
 }
 
 h1,
@@ -103,12 +103,22 @@ button:hover {
 	background-color: rgba(226, 125, 96, 0.6);
 }
 
-main {
+.index_main,
+.index_text {
 	display: flex;
 	background-color: #59a5d8;
 	color: #91e5f6;
 	justify-content: space-between;
 	padding: 10%;
+	align-items: center;
+}
+
+.components_main {
+	display: flex;
+	background-color: #59a5d8;
+	color: #91e5f6;
+	justify-content: space-between;
+	padding: 8%;
 	align-items: center;
 }
 
