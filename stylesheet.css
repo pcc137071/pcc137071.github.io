@@ -62,6 +62,7 @@ header {
 
 .logo {
 	cursor: pointer;
+	height: 70px;
 }
 
 .nav_link {
@@ -125,6 +126,25 @@ button:hover {
 	align-items: center;
 }
 
+.components_body_gpu {
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: #59a5d8;
+	color: white;
+	padding-top: 20vh;
+	padding-left: 6vw;
+	align-items: center;
+}
+
+.components_body_ram {
+	display: flex;
+	background-color: #59a5d8;
+	color: white;
+	padding-top: 25vh;
+	padding-left: 10vw;
+	align-items: center;
+}
+
 .components_main {
 	display: flex;
 	background-color: #59a5d8;
@@ -132,6 +152,11 @@ button:hover {
 	justify-content: space-between;
 	padding: 8%;
 	align-items: center;
+}
+
+.gpu_text {
+	position: relative;
+	right: 80px;
 }
 
 main img {
@@ -164,6 +189,8 @@ main img {
 	grid-row-start: 1;
 	grid-row-end: 2;
 	height: 30vh;
+	position: relative;
+	left: 50px;
 }
 
 .components_gpu {
@@ -186,6 +213,8 @@ main img {
 	grid-row-start: 2;
 	grid-row-end: 3;
 	height: 21vh;
+	position: relative;
+	top: 20px;
 }
 
 .chooser ul {
@@ -200,16 +229,56 @@ main img {
 
 .cpu_pic {
 	display: block;
-	height: 30vh;
+	height: 25vh;
 	position: relative;
 	right: 40px;
 }
 
+.ram_pic {
+	display: block;
+	height: 20vh;
+	position: relative;
+	right: 40px;
+}
+
+.ram_pic_lpx {
+	display: block;
+	height: 15vh;
+	position: relative;
+	right: 40px;
+}
+
+.gpu_pic {
+	display: block;
+	height: 15vh;
+	position: relative;
+	right: 30px;
+}
+
+.gpu_pic_1080 {
+	display: block;
+	height: 15vh;
+	position: relative;
+	left: 20px;
+}
+
+.gpu_pic_2080 {
+	display: block;
+	height: 15vh;
+	position: relative;
+	right: 20px;
+}
+
+.ssd_pic {
+	display: block;
+	height: 20vh;
+}
+
 .ryzen_9 {
 	display: block;
-	height: 30vh;
+	height: 25vh;
 	position: relative;
-	right: 100px;
+	right: 70px;
 }
 
 .chooser_element {
@@ -224,6 +293,16 @@ main img {
 	border: none;
 }
 
+.dropbtn_2080 {
+	background-color: #e27d60;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	position: relative;
+	left: 57px;
+}
+
 .dropdown {
 	position: relative;
 	display: inline-block;
@@ -236,6 +315,7 @@ main img {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
+	padding: 0px 16px;
 }
 
 .dropdown-content a {
@@ -253,6 +333,7 @@ main img {
 	display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn,
+.dropdown:hover .dropbtn_2080 {
 	background-color: rgba(226, 125, 96, 0.6);
 }
