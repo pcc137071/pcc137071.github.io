@@ -103,13 +103,21 @@ button:hover {
 	background-color: rgba(226, 125, 96, 0.6);
 }
 
-.index_main,
-.index_text {
+.index_main {
 	display: flex;
 	background-color: #59a5d8;
 	color: #91e5f6;
 	justify-content: space-between;
 	padding: 10%;
+	align-items: center;
+}
+
+.cpu_text {
+	display: flex;
+	background-color: #59a5d8;
+	color: #91e5f6;
+	justify-content: space-between;
+	padding: 15%;
 	align-items: center;
 }
 
@@ -174,4 +182,12 @@ main img {
 	grid-row-start: 2;
 	grid-row-end: 3;
 	height: 21vh;
+}
+
+.chooser {
+	display: flex;
+}
+
+.chooser_element {
+	display:flex;
 }
