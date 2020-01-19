@@ -116,12 +116,12 @@ button:hover {
 	align-items: center;
 }
 
-.cpu_text {
+.components_body {
 	display: flex;
 	background-color: #59a5d8;
 	color: white;
-	justify-content: space-between;
-	padding: 15%;
+	padding-top: 25vh;
+	padding-left: 15vw;
 	align-items: center;
 }
 
@@ -188,8 +188,28 @@ main img {
 	height: 21vh;
 }
 
-.chooser {
+.chooser ul {
 	display: flex;
+	flex-flow: row nowrap;
+}
+
+.chooser ul li {
+	display: inline;
+	margin: 40px;
+}
+
+.cpu_pic {
+	display: block;
+	height: 30vh;
+	position: relative;
+	right: 40px;
+}
+
+.ryzen_9 {
+	display: block;
+	height: 30vh;
+	position: relative;
+	right: 100px;
 }
 
 .chooser_element {
