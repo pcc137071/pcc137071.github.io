@@ -38,13 +38,17 @@ h4 {
 	text-align: center;
 }
 
+h5 {
+	color: black;
+}
+
 li,
 a,
 button {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
-	color: #91e5f6;
+	color: white;
 	text-decoration: none;
 }
 
@@ -74,7 +78,7 @@ header {
 }
 
 .nav_links li a button:hover {
-	color: #59a5d8;
+	color: white;
 }
 
 button {
@@ -106,7 +110,7 @@ button:hover {
 .index_main {
 	display: flex;
 	background-color: #59a5d8;
-	color: #91e5f6;
+	color: white;
 	justify-content: space-between;
 	padding: 10%;
 	align-items: center;
@@ -115,7 +119,7 @@ button:hover {
 .cpu_text {
 	display: flex;
 	background-color: #59a5d8;
-	color: #91e5f6;
+	color: white;
 	justify-content: space-between;
 	padding: 15%;
 	align-items: center;
@@ -124,7 +128,7 @@ button:hover {
 .components_main {
 	display: flex;
 	background-color: #59a5d8;
-	color: #91e5f6;
+	color: white;
 	justify-content: space-between;
 	padding: 8%;
 	align-items: center;
@@ -189,5 +193,46 @@ main img {
 }
 
 .chooser_element {
-	display:flex;
+	display: flex;
+}
+
+.dropbtn {
+	background-color: #e27d60;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
 }
